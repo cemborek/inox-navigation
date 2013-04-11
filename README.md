@@ -93,7 +93,7 @@ Installation
     ```php
     <?php
 
-        echo $this->navigation()->menu('navigation_logged)->render();
-        echo $this->navigation()->menu('navigation_unlogged)->render();
+        echo $this->navigation()->menu('navigation_logged')->render();
+        echo $this->navigation()->menu('navigation_unlogged')->render();
     ?>
     ```
